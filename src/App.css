@@ -3,24 +3,40 @@
   margin: 2px;
   padding: 2px;
   box-sizing: border-box;
-background-color: rgb(152, 93, 15);
+  background-color: rgb(2, 2, 17);
+ 
 }
-
+h2 {
+  color: rgb(20, 220, 34);
+  font-size: 5rem;
+  border-radius: 20px;
+  margin-bottom:20px ;
+}
+.active {
+  display: flex;
+  flex-direction: column;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgb(0, 0, 0);
+ background-color: rgb(5, 96, 83);
+  padding: 5px;
+}
+.laker {
+  width: 50%;
+  border-radius: 10px;
+  margin-bottom: 20px;
+}
 
 p{
-font-size: 18px;
-color: rgb(23, 4, 4);
- max-width: 600px;
+font-size: 1rem; 
+line-height: 1.5rem;
 
 
 }
 
-h1{
- font-size: 50px;
- font-weight: 35px;
- color: rgb(239, 228, 228);
- border: 16px;
- border: 20px;
+.h1{
+ font-size: 1.5rem;
+ margin-bottom: 10px;
+ 
 }
 
   
